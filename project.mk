@@ -11,10 +11,10 @@ PADVALUE := 0xFF
 VERSION := 0
 
 # 4-ASCII letter game ID.
-GAMEID := CHNG
+GAMEID := GECD
 
 # Game title, up to 11 ASCII chars.
-TITLE := CHANGEME
+TITLE := PEAK-MAZE
 
 # New licensee, 2 ASCII chars.
 # Homebrew games FTW!.
@@ -26,7 +26,7 @@ OLDLIC := 0x33
 # You can get a list of valid values by running `rgbfix -m help`.
 # See https://gbdev.io/pandocs/MBCs for more information, or consult any copy of Pan Docs.
 # If using no MBC, consider enabling `-t` below.
-MBC := 0x00
+MBC := 0x05 # MBC2
 
 # ROM size is set automatically by RGBFIX.
 
@@ -36,7 +36,7 @@ MBC := 0x00
 SRAMSIZE := 0x00
 
 # ROM name.
-ROMNAME := changeme
+ROMNAME := gecad-peak-maze
 ROMEXT  := gb
 
 
